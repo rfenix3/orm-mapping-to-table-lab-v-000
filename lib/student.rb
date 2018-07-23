@@ -13,7 +13,7 @@ class Student
   end
   
   def self.create_table
-    
+    sql = "CREATE TABLE students("
   end
 
 end
