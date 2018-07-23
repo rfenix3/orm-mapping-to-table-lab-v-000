@@ -43,9 +43,4 @@ class Student
     # binding.pry
   end
   
-  # it 'takes in a hash of attributes and uses metaprogramming to create a new student object. Then it uses the #save method to save that student to the database' do
-  #     Student.create(name: "Sally", grade: "10th")
-  #     expect(DB[:conn].execute("SELECT * FROM students")).to eq([[1, "Sally", "10th"]])
-  #   end
-
 end
