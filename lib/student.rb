@@ -7,7 +7,9 @@ class Student
   attr_reader :id
   
   def initialize(name:, grade:, id:nil)
-    @name, @grade, @id = name, grade, id
+    @name = name 
+    @grade = grade
+    @id = id
   end
       it 'has a name and a grade' do
       student = Student.new("Tiffany", "11th")
