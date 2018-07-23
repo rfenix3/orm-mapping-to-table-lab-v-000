@@ -40,7 +40,7 @@ class Student
     student = Student.new(name, grade)
     student.save
     student
-    binding.pry
+    # binding.pry
   end
   
   # it 'takes in a hash of attributes and uses metaprogramming to create a new student object. Then it uses the #save method to save that student to the database' do
