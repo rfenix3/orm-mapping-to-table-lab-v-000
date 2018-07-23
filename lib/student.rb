@@ -11,5 +11,8 @@ class Student
     @grade = grade
     @id = id
   end
+  
+  def create_table
+  end
 
 end
